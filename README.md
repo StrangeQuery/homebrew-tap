@@ -1,9 +1,14 @@
 # Strange Query's Homebrew tap
 
-Homebrew formulas for Strange Query's CARDIAC tools:
+Homebrew formulas for Strange Query's CARDIAC tools. Homebrew asks you to add the tap and trust it first:
 
-    brew install strangequery/tap/cardiaq          # burn, carc and ekg
-    brew install strangequery/tap/cargo-cardiac    # the Rust compiler for CARDIAC (and cardiaq with it)
+    brew tap strangequery/tap
+    brew trust strangequery/tap
+
+Then:
+
+    brew install cardiaq          # burn, carc and ekg
+    brew install cargo-cardiac    # the Rust compiler for CARDIAC (and cardiaq with it)
 
 cargo-cardiac also needs rustup (https://rustup.rs): the first time it builds a program, it installs the nightly its
 driver runs on.
