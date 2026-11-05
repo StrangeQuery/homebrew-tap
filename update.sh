@@ -50,7 +50,7 @@ formula() {
   echo "wrote Formula/$name.rb"
 }
 
-PREFIX=cardiaq BINS='"burn", "carc", "ekg", "xtrack", "lub", "dub"' CAVEATS= \
+PREFIX=cardiaq BINS='"burn", "carc", "ekg"' CAVEATS= \
 TEST='assert_match "burn", shell_output("#{bin}/burn --version")' \
 formula cardiaq cardiaq "$1" cardiaq "CARDIAC tools: the burn runtime, the carc assembler and the ekg debugger" \
   "https://github.com/StrangeQuery/cardiaq" "" "" ""
