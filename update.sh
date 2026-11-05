@@ -53,7 +53,7 @@ formula() {
 PREFIX=cardiaq BINS='"burn", "carc", "ekg"' CAVEATS= \
 TEST='assert_match "burn", shell_output("#{bin}/burn --version")' \
 formula cardiaq cardiaq "$1" cardiaq "CARDIAC tools: the burn runtime, the carc assembler and the ekg debugger" \
-  "https://github.com/StrangeQuery/cardiaq" "" "" ""
+  "https://lab.strangequery.com/cardiaq/" "" "" ""
 
 PREFIX=cargo-cardiac BINS='"cargo-cardiac", "cardiac-driver"' \
 CAVEATS='cargo cardiac needs rustup (https://rustup.rs). The first time it compiles a
