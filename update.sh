@@ -60,4 +60,4 @@ CAVEATS='cargo cardiac needs rustup (https://rustup.rs). The first time it compi
 program it installs the nightly its driver runs on, with rustup.' \
 TEST='assert_match "cardiac", shell_output("#{bin}/cargo-cardiac cardiac --help")' \
 formula cargo-cardiac cargo-cardiac "$2" cargo-cardiac "Rust for CARDIAC: compiles a Rust program to a CARDIAC deck" \
-  "https://lab.strangequery.com/cargo-cardiac/" "" "" cardiaq
+  "https://lab.strangequery.com/cargo-cardiac/" "" "" strangequery/tap/cardiaq
