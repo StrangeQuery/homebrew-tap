@@ -1,9 +1,8 @@
 class CargoCardiac < Formula
   desc "Rust for CARDIAC: compiles a Rust program to a CARDIAC deck"
-  homepage "https://lab.strangequery.com/cargo-cardiac/"
+  homepage "https://lab.strangequery.com/rust-cardiac/"
   version "0.1.1"
   license "MIT"
-  depends_on "strangequery/tap/heartburn"
 
   on_macos do
     on_arm do
@@ -36,8 +35,9 @@ class CargoCardiac < Formula
 
   def caveats
     <<~EOS
-      cargo cardiac needs rustup (https://rustup.rs). The first time it compiles a
-      program it installs the nightly its driver runs on, with rustup.
+      cargo cardiac needs rustup (https://rustup.rs). `cargo cardiac setup` installs
+      the nightly its driver runs on, with rustup (about 550 MB, once); the first
+      build does it too if you haven't.
     EOS
   end
 
