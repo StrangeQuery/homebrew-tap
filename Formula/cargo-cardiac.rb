@@ -3,7 +3,7 @@ class CargoCardiac < Formula
   homepage "https://lab.strangequery.com/cargo-cardiac/"
   version "0.1.1"
   license "MIT"
-  depends_on "strangequery/tap/cardiaq"
+  depends_on "strangequery/tap/heartburn"
 
   on_macos do
     on_arm do

@@ -1,6 +1,6 @@
 #!/bin/sh
-# Writes Formula/cardiaq.rb and Formula/cargo-cardiac.rb for a release of each, from the checksums the releases
-# carry: sh update.sh CARDIAQ_VERSION CARGO_CARDIAC_VERSION (say, sh update.sh 0.1.0 0.1.0).
+# Writes Formula/heartburn.rb and Formula/cargo-cardiac.rb for a release of each, from the checksums the releases
+# carry: sh update.sh HEARTBURN_VERSION CARGO_CARDIAC_VERSION (say, sh update.sh 0.1.2 0.1.2).
 set -e
 cd "$(dirname "$0")"
 sums() { gh release download "v$2" --repo "StrangeQuery/$1" --pattern SHA256SUMS --output - ; }
@@ -50,14 +50,14 @@ formula() {
   echo "wrote Formula/$name.rb"
 }
 
-PREFIX=cardiaq BINS='"burn", "carc", "ekg"' CAVEATS= \
+PREFIX=heartburn BINS='"burn", "carc", "ekg"' CAVEATS= \
 TEST='assert_match "burn", shell_output("#{bin}/burn --version")' \
-formula cardiaq cardiaq "$1" cardiaq "CARDIAC tools: the burn runtime, the carc assembler and the ekg debugger" \
-  "https://lab.strangequery.com/cardiaq/" "" "" ""
+formula heartburn heartburn "$1" heartburn "CARDIAC tools: the burn runtime, the carc assembler and the ekg debugger" \
+  "https://lab.strangequery.com/cardiac/" "" "" ""
 
 PREFIX=cargo-cardiac BINS='"cargo-cardiac", "cardiac-driver"' \
 CAVEATS='cargo cardiac needs rustup (https://rustup.rs). The first time it compiles a
 program it installs the nightly its driver runs on, with rustup.' \
 TEST='assert_match "cardiac", shell_output("#{bin}/cargo-cardiac cardiac --help")' \
-formula cargo-cardiac cargo-cardiac "$2" cargo-cardiac "Rust for CARDIAC: compiles a Rust program to a CARDIAC deck" \
-  "https://lab.strangequery.com/cargo-cardiac/" "" "" strangequery/tap/cardiaq
+formula cargo-cardiac rust-cardiac "$2" cargo-cardiac "Rust for CARDIAC: compiles a Rust program to a CARDIAC deck" \
+  "https://lab.strangequery.com/rust-cardiac/" "" "" strangequery/tap/heartburn
