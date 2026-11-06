@@ -53,11 +53,12 @@ formula() {
 PREFIX=heartburn BINS='"burn", "carc", "ekg"' CAVEATS= \
 TEST='assert_match "burn", shell_output("#{bin}/burn --version")' \
 formula heartburn heartburn "$1" heartburn "CARDIAC tools: the burn runtime, the carc assembler and the ekg debugger" \
-  "https://lab.strangequery.com/cardiac/" "" "" ""
+  "https://lab.strangequery.com/heartburn/" "" "" ""
 
 PREFIX=cargo-cardiac BINS='"cargo-cardiac", "cardiac-driver"' \
-CAVEATS='cargo cardiac needs rustup (https://rustup.rs). The first time it compiles a
-program it installs the nightly its driver runs on, with rustup.' \
+CAVEATS='cargo cardiac needs rustup (https://rustup.rs). `cargo cardiac setup` installs
+the nightly its driver runs on, with rustup (about 550 MB, once); the first
+build does it too if you haven'"'"'t.' \
 TEST='assert_match "cardiac", shell_output("#{bin}/cargo-cardiac cardiac --help")' \
 formula cargo-cardiac rust-cardiac "$2" cargo-cardiac "Rust for CARDIAC: compiles a Rust program to a CARDIAC deck" \
-  "https://lab.strangequery.com/rust-cardiac/" "" "" strangequery/tap/heartburn
+  "https://lab.strangequery.com/rust-cardiac/" "" "" ""
