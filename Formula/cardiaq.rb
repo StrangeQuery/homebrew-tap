@@ -1,31 +1,31 @@
 class Cardiaq < Formula
   desc "CARDIAC tools: the burn runtime, the carc assembler and the ekg debugger"
   homepage "https://lab.strangequery.com/cardiaq/"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/StrangeQuery/cardiaq/releases/download/v0.1.0/cardiaq-aarch64-apple-darwin.tar.gz"
-      sha256 "a0901720282c39ca16d74f1062eda3c2339f83ba00b90d2dda15e91788f5c451"
+      url "https://github.com/StrangeQuery/cardiaq/releases/download/v0.1.1/cardiaq-aarch64-apple-darwin.tar.gz"
+      sha256 "ed2e67c84a4f1c3d3547455541855860b51b55181b5ba4aa41df190b52729d56"
     end
   end
   on_macos do
     on_intel do
-      url "https://github.com/StrangeQuery/cardiaq/releases/download/v0.1.0/cardiaq-x86_64-apple-darwin.tar.gz"
-      sha256 "689113766c3bdd87b260e52fa45653d5f06dde17e882b82e45c60882fa42d7b4"
+      url "https://github.com/StrangeQuery/cardiaq/releases/download/v0.1.1/cardiaq-x86_64-apple-darwin.tar.gz"
+      sha256 "8c40fd22c8fd1d0c54ffe9dadb41303c047d05d72064e84d47483b5bc6d756b3"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/StrangeQuery/cardiaq/releases/download/v0.1.0/cardiaq-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5b2c4e1c4fa99feee8a9b5c0baf20ddae42d9cd8cf0245c0911775175d9db22f"
+      url "https://github.com/StrangeQuery/cardiaq/releases/download/v0.1.1/cardiaq-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c068f5ec53be3215ddb9a3f0f75b1f308be75b165abd21f44794a451a8fbb432"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/StrangeQuery/cardiaq/releases/download/v0.1.0/cardiaq-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "08a428efae5760d4b33707a0999e0996d759623e831eb7ea6e30f77aca059f48"
+      url "https://github.com/StrangeQuery/cardiaq/releases/download/v0.1.1/cardiaq-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e4b465324e2ec6457d96c5fe1cc4bd9fd0a341597ebe31d6de21bcd364d14f5d"
     end
   end
 

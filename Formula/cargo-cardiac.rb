@@ -1,32 +1,32 @@
 class CargoCardiac < Formula
   desc "Rust for CARDIAC: compiles a Rust program to a CARDIAC deck"
   homepage "https://lab.strangequery.com/cargo-cardiac/"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
   depends_on "strangequery/tap/cardiaq"
 
   on_macos do
     on_arm do
-      url "https://github.com/StrangeQuery/cargo-cardiac/releases/download/v0.1.0/cargo-cardiac-aarch64-apple-darwin.tar.gz"
-      sha256 "e28109787f8d51cae1d23259ebb398de527d3a1d9d8e0e563df28beb73a03202"
+      url "https://github.com/StrangeQuery/cargo-cardiac/releases/download/v0.1.1/cargo-cardiac-aarch64-apple-darwin.tar.gz"
+      sha256 "5327d1a3ae68ea1b511efdf76d49d677711b038899dbe60737d08e214a43eb1b"
     end
   end
   on_macos do
     on_intel do
-      url "https://github.com/StrangeQuery/cargo-cardiac/releases/download/v0.1.0/cargo-cardiac-x86_64-apple-darwin.tar.gz"
-      sha256 "dc5f7c8663eb7a7120f3e4d7d6984b77149a036ea5fb13d32db922bc228937a2"
+      url "https://github.com/StrangeQuery/cargo-cardiac/releases/download/v0.1.1/cargo-cardiac-x86_64-apple-darwin.tar.gz"
+      sha256 "24a1029d83f9b4dcdc0eed9efcf242f3ae2f4b72105e5810437f91e6f30606ab"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/StrangeQuery/cargo-cardiac/releases/download/v0.1.0/cargo-cardiac-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "bcea9e10c4fae0bfa612f1be40ce20f4f270d43effe301a8437c17856241e5a3"
+      url "https://github.com/StrangeQuery/cargo-cardiac/releases/download/v0.1.1/cargo-cardiac-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b2e50b743cf537c771f4aa9249e88b44b444c3aca0a15b64589f578d426edfea"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/StrangeQuery/cargo-cardiac/releases/download/v0.1.0/cargo-cardiac-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "40b0a5f4c522707ab9f85167dc40b8bc4b8a9ab17e43d2c6c3aec8f3c51e4e25"
+      url "https://github.com/StrangeQuery/cargo-cardiac/releases/download/v0.1.1/cargo-cardiac-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8e124471e2d951e481c461479b84d323bda70a02a6f99f9caecdf84ed0adc06e"
     end
   end
 
