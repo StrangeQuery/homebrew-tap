@@ -1,31 +1,31 @@
 class CargoCardiac < Formula
   desc "Rust for CARDIAC: compiles a Rust program to a CARDIAC deck"
   homepage "https://lab.strangequery.com/rust-cardiac/"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/StrangeQuery/cargo-cardiac/releases/download/v0.1.1/cargo-cardiac-aarch64-apple-darwin.tar.gz"
-      sha256 "5327d1a3ae68ea1b511efdf76d49d677711b038899dbe60737d08e214a43eb1b"
+      url "https://github.com/StrangeQuery/rust-cardiac/releases/download/v0.1.2/cargo-cardiac-aarch64-apple-darwin.tar.gz"
+      sha256 "2c5d8417339c7a0a8c27dda6741858e91acb0eafc5401fb9d310b8aa18d70686"
     end
   end
   on_macos do
     on_intel do
-      url "https://github.com/StrangeQuery/cargo-cardiac/releases/download/v0.1.1/cargo-cardiac-x86_64-apple-darwin.tar.gz"
-      sha256 "24a1029d83f9b4dcdc0eed9efcf242f3ae2f4b72105e5810437f91e6f30606ab"
+      url "https://github.com/StrangeQuery/rust-cardiac/releases/download/v0.1.2/cargo-cardiac-x86_64-apple-darwin.tar.gz"
+      sha256 "ee076578f47e67f82d8d74e243f01239d1c5d52c363a1a6d16241a4cd46adaa1"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/StrangeQuery/cargo-cardiac/releases/download/v0.1.1/cargo-cardiac-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b2e50b743cf537c771f4aa9249e88b44b444c3aca0a15b64589f578d426edfea"
+      url "https://github.com/StrangeQuery/rust-cardiac/releases/download/v0.1.2/cargo-cardiac-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "81529acc6a7e8d23aebe1fa3df6bbb475369ddfad4ab5baa8b01d66ff1513718"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/StrangeQuery/cargo-cardiac/releases/download/v0.1.1/cargo-cardiac-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8e124471e2d951e481c461479b84d323bda70a02a6f99f9caecdf84ed0adc06e"
+      url "https://github.com/StrangeQuery/rust-cardiac/releases/download/v0.1.2/cargo-cardiac-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a21f59e3050440f0a069bf5d16d5f4fa23159803b5835c0fa895f6a4a866e26d"
     end
   end
 
