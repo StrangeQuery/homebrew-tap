@@ -1,31 +1,31 @@
 class CargoCardiac < Formula
   desc "Rust for CARDIAC: compiles a Rust program to a CARDIAC deck"
   homepage "https://lab.strangequery.com/rust-cardiac/"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/StrangeQuery/rust-cardiac/releases/download/v0.2.1/cargo-cardiac-aarch64-apple-darwin.tar.gz"
-      sha256 "9dc1cd8cd360cdb77db184f9200a7ca0dcf7df3c04e8381d15ccf528fb3cdb8f"
+      url "https://github.com/StrangeQuery/rust-cardiac/releases/download/v0.2.2/cargo-cardiac-aarch64-apple-darwin.tar.gz"
+      sha256 "d47c9772fc4290bd496f0f44e1f32bfd927b8be7ccdf54516fa8ac0c10c411f7"
     end
   end
   on_macos do
     on_intel do
-      url "https://github.com/StrangeQuery/rust-cardiac/releases/download/v0.2.1/cargo-cardiac-x86_64-apple-darwin.tar.gz"
-      sha256 "bbddf86c0d1745aeae615bda587dbf05e56d6bbe91f9aea023d7a00dcd3eaec1"
+      url "https://github.com/StrangeQuery/rust-cardiac/releases/download/v0.2.2/cargo-cardiac-x86_64-apple-darwin.tar.gz"
+      sha256 "7067d9d6c1980e9ca14133918c38d6904b1e65cd239c165c0f987c1756234b2b"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/StrangeQuery/rust-cardiac/releases/download/v0.2.1/cargo-cardiac-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "03bc194bcabc8936b70ad48d7866c4a49fc0f2c6515a7c6af9565662e43fcdfd"
+      url "https://github.com/StrangeQuery/rust-cardiac/releases/download/v0.2.2/cargo-cardiac-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "625ef36d4d6ae1ffc93b5a624b5f410d541a6f18ea7a34109507c9d17b1ecc3e"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/StrangeQuery/rust-cardiac/releases/download/v0.2.1/cargo-cardiac-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c77f1de417c70fb10c3fae4c47b48486469ff9171eb1dd211d7efe2d10b819f3"
+      url "https://github.com/StrangeQuery/rust-cardiac/releases/download/v0.2.2/cargo-cardiac-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e8e039da01944ff2203e65d2ce8d31ff0208a6abc7785bc439a17b2d7530fd4b"
     end
   end
 
