@@ -1,31 +1,31 @@
 class CargoCardiac < Formula
   desc "Rust for CARDIAC: compiles a Rust program to a CARDIAC deck"
   homepage "https://lab.strangequery.com/rust-cardiac/"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/StrangeQuery/rust-cardiac/releases/download/v0.2.0/cargo-cardiac-aarch64-apple-darwin.tar.gz"
-      sha256 "f871a0de433324bd9e1609689b8934614433ee7b13dec44dfa3274e74b3ccdc8"
+      url "https://github.com/StrangeQuery/rust-cardiac/releases/download/v0.2.1/cargo-cardiac-aarch64-apple-darwin.tar.gz"
+      sha256 "9dc1cd8cd360cdb77db184f9200a7ca0dcf7df3c04e8381d15ccf528fb3cdb8f"
     end
   end
   on_macos do
     on_intel do
-      url "https://github.com/StrangeQuery/rust-cardiac/releases/download/v0.2.0/cargo-cardiac-x86_64-apple-darwin.tar.gz"
-      sha256 "742f10eb9ed4c0ffde876a5ce19926e3589faf53de6a4177f3c7b413bbc2e108"
+      url "https://github.com/StrangeQuery/rust-cardiac/releases/download/v0.2.1/cargo-cardiac-x86_64-apple-darwin.tar.gz"
+      sha256 "bbddf86c0d1745aeae615bda587dbf05e56d6bbe91f9aea023d7a00dcd3eaec1"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/StrangeQuery/rust-cardiac/releases/download/v0.2.0/cargo-cardiac-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "adf150f85a48111c2a1a806bd8f292765d387b72dbc519c77b1d70cacc7d635f"
+      url "https://github.com/StrangeQuery/rust-cardiac/releases/download/v0.2.1/cargo-cardiac-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "03bc194bcabc8936b70ad48d7866c4a49fc0f2c6515a7c6af9565662e43fcdfd"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/StrangeQuery/rust-cardiac/releases/download/v0.2.0/cargo-cardiac-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e0aef2ab21c0651e923ac7d3dd13f78c5afcacaf9979a8e22d87ffb4f0f9e146"
+      url "https://github.com/StrangeQuery/rust-cardiac/releases/download/v0.2.1/cargo-cardiac-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c77f1de417c70fb10c3fae4c47b48486469ff9171eb1dd211d7efe2d10b819f3"
     end
   end
 
