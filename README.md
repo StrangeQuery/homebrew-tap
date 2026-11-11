@@ -1,6 +1,7 @@
 # Strange Query's Homebrew tap
 
-Homebrew formulas for Strange Query's CARDIAC tools. Homebrew asks you to add the tap and trust it first:
+Homebrew formulas for Strange Query's [CARDIAC](https://lab.strangequery.com/cardiac/) tools, [heartburn](https://lab.strangequery.com/heartburn/)
+and [cargo-cardiac](https://lab.strangequery.com/rust-cardiac/). Homebrew asks you to add the tap and trust it first:
 
     brew tap strangequery/tap
     brew trust strangequery/tap
